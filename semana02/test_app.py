@@ -45,7 +45,7 @@ class TestManager(TestCase):
         self.assertEqual('managers', self._manager.get_department())
         
         new_departament = 'sellers'
-        self._manager.set_departament(new_departament)
+        self._manager.set_department(new_departament)
         self.assertEqual(new_departament, self._manager.get_department())
 
 
@@ -76,7 +76,7 @@ class TestSeller(TestCase):
         self.assertEqual('sellers', self._seller.get_department())
         
         new_department = 'managers'
-        self._seller.set_departament(new_department)
+        self._seller.set_department(new_department)
         self.assertEqual(new_department, self._seller.get_department())
 
     def test_seller_calc_bonus(self):

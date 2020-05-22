@@ -108,14 +108,14 @@ class Manager(Employee):
     def get_department(self):
         return self.__department.name
 
-    def set_departament(self, department):
+    def set_department(self, department):
         self.__department.name = department
 
 
 class Seller(Employee):
     '''
     Esta é uma classe que define a representação de um empregado com o cargo
-    de gerente na organização.
+    de vendedor na organização.
 
     Attributes:
         code(int): Representa o código identificador único do empregado.
@@ -140,7 +140,7 @@ class Seller(Employee):
     def get_department(self):
         return self.__department.name
 
-    def set_departament(self, name):
+    def set_department(self, name):
         self.__department.name = name
 
     def calc_bonus(self):
