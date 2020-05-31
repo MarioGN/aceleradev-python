@@ -1,0 +1,16 @@
+atomicwrites==1.1.5
+attrs==18.1.0
+certifi==2018.4.16
+chardet==3.0.4
+flake8==3.8.1
+idna==2.9
+mccabe==0.6.1
+more-itertools==4.2.0
+pluggy==0.6.0
+py==1.5.3
+pycodestyle==2.6.0
+pyflakes==2.2.0
+pytest==3.6.2
+requests==2.23.0
+six==1.11.0
+urllib3==1.25.9
